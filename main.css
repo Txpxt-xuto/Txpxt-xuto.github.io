@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .All
 {
-    background-color: bisque;
+    background-color: #31363F;
+    font-family: 'Kanit';
+    color: whitesmoke;
 }
 .profile_img 
 {
     height: 200px;
     width: 200px;
-
+    border-radius: 25px;
+    position: relative;
+    bottom: 100px;
+    left: 75%;
 }
 .objective_eng
 {
-    color: gray;
+    color: rgb(186, 186, 186);
 }
 .Contactlink
 {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
 }
