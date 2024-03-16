@@ -1,4 +1,4 @@
-.all
+.All
 {
     background-color: bisque;
 }
@@ -11,4 +11,9 @@
 .objective_eng
 {
     color: gray;
+}
+.Contact
+{
+    color: black;
+    text-decoration: none;
 }
