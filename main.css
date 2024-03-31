@@ -36,7 +36,23 @@
             animation-iteration-count: infinite;
             animation-play-state: running;
 }
+@keyframes stretch {
+    0% {
+       
+        opacity: 0.2;
+        background-color: green;
+        border-radius: 100%;
+    }
 
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        //transform: scale(2.0);
+        background-color: red;
+    }
+}
 .img
 {
     border-radius: 25px;
