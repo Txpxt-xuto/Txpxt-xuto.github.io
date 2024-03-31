@@ -8,12 +8,23 @@
 }
 .profile_img 
 {
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     border-radius: 25px;
-    position: relative;
-    bottom: 100px;
-    left: 80%;
+    display: block;
+    margin: auto;
+}
+.Head
+{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 50px;;
+}
+.Portfolio
+{
+    font-size: 50px;
+    position: absolute;
 }
 .img
 {
@@ -22,10 +33,14 @@
 .objective_eng
 {
     color: #000000;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
 }
 .Contactlink
 {
     color: whitesmoke;
+    position: sticky;
     text-decoration: none;
 }
 html
