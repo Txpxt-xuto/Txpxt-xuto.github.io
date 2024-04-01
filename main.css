@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .All
 {
-    background-color: #9DB2BF;
+    background-color: #3A3B3C;
     font-family: 'Kanit';
     color: whitesmoke;
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕</text></svg>"), auto;
@@ -32,10 +32,19 @@
 }
 .Objective
 {
-    color: #000000;
-    border: 1px solid;
+    color: black;
+    border-radius: 6px;
+    background-color: #FFB38E;
+    border: 1px #FFB38E;
     margin: 20px;
     padding: 10px;
+}
+.Personal_information
+{
+    border: 1px solid;
+    margin: 50px;
+    padding: 10px;
+    background: #B0B3B8;
 }
 .objective_thai
 {
