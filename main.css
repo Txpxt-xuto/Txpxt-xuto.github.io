@@ -34,9 +34,12 @@
 {
     color: #000000;
     border: 1px solid;
-    margin: auto;
+    margin: 20px;
     padding: 10px;
-    /*box-shadow: 5px 10px;*/
+}
+.objective_thai
+{
+    color: #ffffff;
 }
 .Contactlink
 {
