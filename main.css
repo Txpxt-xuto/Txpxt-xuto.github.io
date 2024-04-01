@@ -30,12 +30,12 @@
 {
     border-radius: 25px;
 }
-.objective_eng
+.Objective
 {
     color: #000000;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px;
+    /*box-shadow: 5px 10px;*/
 }
 .Contactlink
 {
