@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .All
 {
-    background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);
+    /*background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);*/
+    background-image: url();
     background-size: 2050px;
     background-repeat: no-repeat;
     background-position-x: center;
