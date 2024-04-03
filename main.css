@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .All
 {
-    background-color: #1c1a32;
-    background-image: url(https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);
+    background-size: 2050px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
     font-family: 'Kanit';
     color: whitesmoke;
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕</text></svg>"), auto;
