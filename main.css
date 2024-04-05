@@ -6,14 +6,16 @@
     font-family: 'Kanit';
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕</text></svg>"), auto;
 }
-.slides
+.slides1
 {
     width: 100%;
     height: 100%;
     display: flex;
+    font-size: 100px;
     align-items: center;
     justify-content:  center;
-    gap: 50px;
+    padding-top: 7%;
+    padding-bottom: 8%;
     color: #fff;
     background: linear-gradient(454deg,#4f4080,#9553ff);
 
@@ -29,24 +31,9 @@
 .Head
 {
     background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);
-    background-size: 2050px;
+    background-size: 2000px;
     text-align: center;
     display: block;
-}
-.Portfolio
-{
-    text-align: center;
-    display: block;
-    padding: 1% 45%;
-    bottom: 700px;
-    right: 0%;
-    background-color: black;
-    font-size: 50px;;
-}
-.Portfolio
-{
-    font-size: 50px;
-    position: absolute;
 }
 .img
 {
