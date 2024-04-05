@@ -20,11 +20,15 @@
     display: block;
     margin: auto;
 }
-.Portfolio
+.Head
 {
+    flex-direction: column;
     text-align: center;
     display: block;
     margin: auto;
+}
+.Portfolio
+{
     font-size: 50px;;
 }
 .Portfolio
