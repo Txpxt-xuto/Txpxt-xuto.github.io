@@ -43,6 +43,19 @@
     background-image: url(https://i.pinimg.com/originals/bd/93/72/bd937209ffb40aef04c246e57465f505.gif);
     /*background: #200001;*/
 }
+.slides4
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    padding-top: 7%;
+    padding-bottom: 8%;
+    color: #ffffff;
+    background-image: url(https://cdn.dribbble.com/users/920/screenshots/3847300/attachments/871699/wallpaper.jpg);
+    /*background: #200001;*/
+}
 .profile_img 
 {
     height: 250px;
