@@ -44,7 +44,7 @@ html
     justify-content:  center;
     padding-top: 7%;
     padding-bottom: 8%;
-    background-color: #171721;
+    background: #151724;
     
 }
 .slides4
@@ -57,12 +57,45 @@ html
     padding-top: 7%;
     padding-bottom: 8%;
     color: #ffffff;
-    background-image: url(https://cdn.dribbble.com/users/920/screenshots/3847300/attachments/871699/wallpaper.jpg);
-    
+    background: #151724;
 }
-
-
-
+.Portfolio
+{
+    /*font-family: "Helvetica Neue";*/
+    background: linear-gradient( 20deg, #000000, #3f3f3f, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Head:hover .overlay
+{
+    opacity: 1;
+}
+.text
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.overlay 
+{
+    position: absolute;
+    top: 1736.5px;
+    bottom: 0;
+    left: 704.5px;
+    right: 0;
+    height: 250px;
+    width: 250px;
+    opacity: 0;
+    transition: .5s ease;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
 .profile_img 
 {
     height: 250px;
