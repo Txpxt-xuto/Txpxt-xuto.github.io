@@ -31,9 +31,9 @@ html
     align-items: center;
     justify-content:  center;
     background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);
-    background-size: 2000px;
+    background-size: 1920px;
     height: 800px;
-    width: 2560px;
+    width: 1644px;
 }
 .slides3
 {
@@ -44,8 +44,7 @@ html
     justify-content:  center;
     padding-top: 7%;
     padding-bottom: 8%;
-    color: #ffffff;
-    background-image: url(https://i.pinimg.com/originals/bd/93/72/bd937209ffb40aef04c246e57465f505.gif);
+    background-color: #d5b37d;
 }
 .slides4
 {
@@ -58,8 +57,6 @@ html
     padding-bottom: 8%;
     color: #ffffff;
     background-image: url(https://cdn.dribbble.com/users/920/screenshots/3847300/attachments/871699/wallpaper.jpg);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
     
 }
 
