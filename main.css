@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+html
+{
+    scroll-behavior: smooth;
+}
 .All
 {
     width: 100%;
@@ -11,7 +15,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    font-size: ;
+    font-size: 100px;
     align-items: center;
     justify-content:  center;
     padding-top: 7%;
@@ -26,22 +30,22 @@
     display: flex;
     align-items: center;
     justify-content:  center;
-    color: #ffffff;
-    background: #200001;
+    background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);
+    background-size: 2000px;
+    height: 800px;
+    width: 2560px;
 }
 .slides3
 {
     width: 100%;
     height: 100%;
-    font-size: 100px;
     display: flex;
     align-items: center;
     justify-content:  center;
     padding-top: 7%;
     padding-bottom: 8%;
     color: #ffffff;
-    background-image: url(https://i.pinimg.com/originals/bd/93/72/bd937209ffb40aef04c246e57465f505.gif);
-    /*background: #200001;*/
+    /*background-image: url(https://i.pinimg.com/originals/bd/93/72/bd937209ffb40aef04c246e57465f505.gif);*/
 }
 .slides4
 {
@@ -54,8 +58,10 @@
     padding-bottom: 8%;
     color: #ffffff;
     background-image: url(https://cdn.dribbble.com/users/920/screenshots/3847300/attachments/871699/wallpaper.jpg);
-    /*background: #200001;*/
 }
+
+
+
 .profile_img 
 {
     height: 250px;
@@ -66,16 +72,8 @@
 }
 .Head
 {
-    background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);
-    background-size: 2000px;
-    height: 800px;
-    width: 2560px;
     text-align: center;
     display: block;
-}
-.img
-{
-    border-radius: 10px;
 }
 .Objective
 {
@@ -92,26 +90,19 @@
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.4);
 }
+.objective_thai
+{
+    color: #ffffff;
+}
 .Personal_information
 {
+    color: rgb(0, 0, 0);
     border: 1px;
     border-radius: 10px;
     margin: 50px;
     line-height: 1;
     padding: 10px;
-    background-image: linear-gradient(135deg, rgba(228, 4, 255, 1) 0%, rgba(7, 17, 126, 1) 100%);
-}
-.objective_thai
-{
-    color: #ffffff;
-}
-.Contactlink
-{
-    color: whitesmoke;
-    position: sticky;
-    text-decoration: none;
-}
-html
-{
-    scroll-behavior: smooth;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
 }
