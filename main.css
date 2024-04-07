@@ -5,9 +5,9 @@ html
 }
 .All
 {
-    background-color: rgba(255, 0, 0, 0.4);
+    background: linear-gradient( 45deg, #ffa69e, #faf3dd, #b8f2e6, #aed9e0, #5e6472);
     width: 100%;
-    height: 100%;
+    height: 1000%;
     font-family: 'Kanit';
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕</text></svg>"), auto;
 }
