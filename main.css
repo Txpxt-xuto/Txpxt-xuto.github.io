@@ -31,7 +31,8 @@ html
     align-items: center;
     justify-content:  center;
     /*background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);*/
-    height: 1900px;
+    background-size: 1920px;
+    height: 1500px;
     width: 1644px;
 }
 .slides3
