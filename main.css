@@ -31,8 +31,9 @@ html
     align-items: center;
     justify-content:  center;
     /*background-image: url(https://www.camposanto.com/external/wallpapers/Launch_Yellow/FWY_3440x1440.jpg);*/
+    background-image: url(Mywebsite\webbg1.jpg);
     background-size: 1920px;
-    height: 1500px;
+    height: 1050px;
     width: 1644px;
 }
 .slides3
