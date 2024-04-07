@@ -21,6 +21,7 @@ html
     justify-content:  center;
     padding-top: 7%;
     padding-bottom: 8%;
+    background: linear-gradient( 45deg, #A79277, #5e6472);
 }
 .slides2
 {
@@ -33,6 +34,7 @@ html
     background-size: 1920px;
     height: 1050px;
     width: 1644px;*/
+    background: linear-gradient( 45deg, #A79277, #5e6472);
 }
 .slides3
 {
@@ -43,6 +45,7 @@ html
     justify-content:  center;
     padding-top: 2%;
     padding-bottom: 8%;
+    background: linear-gradient( 45deg, #A79277, #5e6472);
 }
 .Portfolio
 {
@@ -87,6 +90,8 @@ html
     width: 250px;
     border-radius: 10px;
     display: block;
+    bottom: 100px;
+    margin: auto auto;
 }
 .Head
 {
