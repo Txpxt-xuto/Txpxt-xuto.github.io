@@ -11,7 +11,8 @@
   --title-color: hsl(207, 4%, 16%);
   --text-color: hsl(207, 4%, 28%);
   --text-color-light: hsl(207, 4%, 56%);
-  --body-color: hsl(207, 4%, 99%);
+  /*--body-color: hsl(207, 4%, 99%);    สีเดิม*/
+  --body-color: hsl(34, 78%, 75%);
   --container-color: hsl(207, 4%, 95%);
 
   /* Change the first number */
@@ -265,14 +266,14 @@ body.dark-theme {
 }
 
 .home__blob{
-   position: relative;
-   width: 200px;
-   height: 290px;
-   background-color: var(--body-color);
-   border: 2px solid var(--text-color-light);
-   justify-self: center;
-   border-radius: 6.25rem;
-   place-items: center;
+  position: relative;
+  width: 200px;
+  height: 290px;
+  background-color: var(--body-color);
+  border: 2px solid var(--text-color-light);
+  justify-self: center;
+  border-radius: 6.25rem;
+  place-items: center;
 }
 
 .home__perfil{
