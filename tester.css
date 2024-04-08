@@ -12,7 +12,7 @@
   --text-color: hsl(207, 4%, 28%);
   --text-color-light: hsl(207, 4%, 56%);
   --body-color: hsl(207, 4%, 99%);
-  --container-color: hsl(0, 0%, 0%);
+  --container-color: hsl(0, 1%, 15%);
 
   /* Change the first number */
   /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
@@ -708,7 +708,7 @@ body.dark-theme {
 }
 
 .footer__social-link:hover{
-     transform: translateY(-.25rem);
+      transform: translateY(-.25rem);
 }
 /*=============== SCROLL BAR ===============*/
 
@@ -728,7 +728,7 @@ body.dark-theme {
   }
   
   .nav__menu{
-   padding-bottom: 4rem;
+  padding-bottom: 4rem;
   }
 
   .nav__list{
@@ -760,8 +760,7 @@ body.dark-theme {
   .skills__container{
     justify-content: center;
   }
-   
-  .projects__container{
+.projects__container{
     width: 400px;
     overflow: hidden;
   }
@@ -994,12 +993,12 @@ body.dark-theme {
     right: -1rem;
 }
 
- .projects__container .swiper-slide{
+.projects__container .swiper-slide{
   margin-bottom: 6.5rem;
- }
+}
 
- .Projects__img{
+.Projects__img{
   width: 320px;
   margin-bottom: 2rem;
- }
+}
 }
