@@ -11,8 +11,8 @@
     --text-color-light: hsl(207, 4%, 56%);
     --body-color: hsl(207, 4%, 99%);
     --container-color: hsl(0, 1%, 15%);
-  /* Change the first number */
-  /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
+    /* Change the first number */
+    /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
     --gradient-color: linear-gradient(180deg,
                         hsla(207, 48%, 72%, 0),
                         hsla(207, 65%, 65%, 1));
@@ -50,18 +50,15 @@
     --tiny-font-size: .688rem;
 }
 }
-
 /*=============== BASE ===============*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     width: 100%;
     font-family: var(--body-font);
@@ -70,29 +67,22 @@ body {
     color: var(--text-color);
     transition: background .4s; /* for dark mode animation */
 }
-
 h1, h2, h3 {
     color: var(--title-color);
     font-family: var(--title-font);
     font-weight: var(--font-medium);
 }
-
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
 }
-
 img {
     max-width: 100%;
     height: auto;
 }
-
 /*=============== THEME ===============*/
-
-
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
     --title-color: hsl(207, 4%, 95%);
@@ -100,55 +90,44 @@ body.dark-theme {
     --body-color: hsl(207, 4%, 10%);
     --container-color: hsl(207, 4%, 12%);
 }
-
 /*========== 
     Color changes in some parts of 
     the website, in light theme
 ==========*/
-
-
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
     max-width: 1024px;
     margin-inline: 1.5rem;
 }
-
 .grid {
     display: grid;
     gap: 1.5rem;
 }
-
 .section {
     padding-block: 2.5rem;
 }
-
 .section__border {
     border-bottom: 1px solid var(--title-color);
     padding-bottom: 3.5rem;
 }
-
 .section__title, 
 .section__subtitle {
     text-align: center;
 }
-
 .section__title {
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
     margin-bottom: .25rem;
 }
-
 .section__subtitle {
     display: block;
     font-size: var(--small-font-size);
     color: var(--text-color-light);
     margin-bottom: 3rem;
 }
-
 .main {
     overflow: hidden; /* For animation */
 }
-
 /*=============== HEADER & NAV ===============*/
 .header{
     width: 100%;
