@@ -11,8 +11,7 @@
   --title-color: hsl(207, 4%, 16%);
   --text-color: hsl(207, 4%, 28%);
   --text-color-light: hsl(207, 4%, 56%);
-  /*--body-color: hsl(207, 4%, 99%);    สีเดิม*/
-  --body-color: hsl(34, 78%, 75%);
+  --body-color: hsl(207, 4%, 99%);
   --container-color: hsl(207, 4%, 95%);
 
   /* Change the first number */
@@ -394,7 +393,6 @@ body.dark-theme {
   background-color: var(--container-color);
   border-radius: 3rem;
   margin-bottom: 1rem;
-  background-color: hsl(0, 0%, 0%);
 }
 
 .skills__blob img{
