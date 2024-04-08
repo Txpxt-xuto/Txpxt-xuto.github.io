@@ -774,20 +774,21 @@ body.dark-theme {
   }
 }
 
-@media screen and (min-width: 767px) {
-  .home__container{
+@media screen and (min-width: 767px)
+{
+.home__container
+{
     grid-template-columns: 1fr 2fr 1fr;
-  }
-
-  .home__data{
+}
+.home__data
+{
     order: 2;
-  }
-
-  .home__info:nth-child(3){
+}
+.home__info:nth-child(3)
+{
     order: 3;
     text-align: right;
-  }
-
+}
 .home__info
 {
     margin-top: 10rem;
