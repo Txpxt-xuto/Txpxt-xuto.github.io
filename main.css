@@ -88,7 +88,7 @@ body.dark-theme {
     --title-color: hsl(207, 4%, 95%);
     --text-color: hsl(207, 4%, 65%);
     --body-color: hsl(207, 4%, 10%);
-    --container-color: hsl(207, 4%, 12%);
+    --container-color: #2C3A47;
 }
 /*========== 
     Color changes in some parts of 
@@ -151,6 +151,7 @@ body.dark-theme {
 .nav__toggle{
     color: var(--title-color);
 }
+
 .nav__logo{
     font-family: var(--title-font);
     font-weight: var(--font-medium);
