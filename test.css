@@ -82,7 +82,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -91,6 +90,7 @@ body.dark-theme {
     --body-color: hsl(207, 4%, 10%);
     --container-color: #2C3A47;
 }
+/*========== Button Dark theme ==========*/
 button {
     all: unset;
     cursor: pointer;
