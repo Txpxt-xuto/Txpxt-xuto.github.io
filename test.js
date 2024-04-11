@@ -163,18 +163,16 @@ if (darkMode) {
 function toggleDarkMode() {
     // Toggle darkMode variable
     darkMode = !darkMode;
-  
     // Toggle dark-mode class on body
     document.body.classList.toggle("dark-mode");
-  
     // Toggle light and dark icons
     if (darkMode) {
-      lightIcon.setAttribute("display", "block");
-      darkIcon.setAttribute("display", "none");
+        lightIcon.setAttribute("display", "block");
+        darkIcon.setAttribute("display", "none");
     } else {
-      lightIcon.setAttribute("display", "none");
-      darkIcon.setAttribute("display", "block");
+        lightIcon.setAttribute("display", "none");
+        darkIcon.setAttribute("display", "block");
     }
-  }
+}
 
 
