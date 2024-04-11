@@ -118,7 +118,7 @@ if(cartClose)
         cart.classList.remove('show-cart')
     })
 }
-/*=============== DARK LIGHT THEME ===============*/ 
+/*=============== DARK LIGHT THEME ===============
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
@@ -146,4 +146,6 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-})
+})*/ 
+const lightIcon = document.getElementById("light-icon");
+const darkIcon = document.getElementById("dark-icon");
