@@ -158,7 +158,8 @@ body.dark-theme {
 }
 .nav__toggle{
     display: flex;
-    font-size: 1.25rem;
+    /*font-size: 1.25rem;*/
+    font-size: 100px;
     cursor: pointer;
 }
 
