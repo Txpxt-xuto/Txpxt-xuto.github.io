@@ -98,48 +98,58 @@ button {
     the website, in light theme
 ==========*/
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
+.container 
+{
     max-width: 1024px;
     margin-inline: 1.5rem;
 }
-.grid {
+.grid 
+{
     display: grid;
     gap: 1.5rem;
 }
-.section {
+.section 
+{
     padding-block: 2.5rem;
 }
-.section__border {
+.section__border 
+{
     border-bottom: 1px solid var(--title-color);
     padding-bottom: 3.5rem;
 }
 .section__title, 
-.section__subtitle {
+.section__subtitle 
+{
     text-align: center;
 }
-.section__title {
+.section__title 
+{
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
     margin-bottom: .25rem;
 }
-.section__subtitle {
+.section__subtitle 
+{
     display: block;
     font-size: var(--small-font-size);
     color: var(--text-color-light);
     margin-bottom: 3rem;
 }
-.main {
+.main 
+{
     overflow: hidden; /* For animation */
 }
 /*=============== HEADER & NAV ===============*/
-.header{
+.header
+{
     width: 100%;
     position: fixed;
     bottom: 2rem;
     left: 0;
     z-index: var(--z-fixed);
 }
-.nav{
+.nav
+{
     height: calc(var(--header-height) + .5rem);
     display: flex;
     justify-content: space-between;
@@ -151,7 +161,8 @@ button {
 }
 .nav__logo,
 .nav__close,
-.nav__toggle{
+.nav__toggle
+{
     color: var(--title-color);
 }
 
@@ -159,13 +170,15 @@ button {
     font-family: var(--title-font);
     font-weight: var(--font-medium);
 }
-.nav__toggle{
+.nav__toggle
+{
     display: flex;
     font-size: 1.25rem;
     cursor: pointer;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px)
+{
 .nav__menu
 {
     position: fixed;
