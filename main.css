@@ -37,7 +37,8 @@
     --z-fixed: 100;
 }
 /* Responsive typography */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) 
+{
 :root {
     --biggest-font-size: 3rem;
     --h1-font-size: 2.25rem;
@@ -55,10 +56,12 @@
     padding: 0;
     margin: 0;
 }
-html {
+html
+{
     scroll-behavior: smooth;
 }
-body {
+body 
+{
     width: 100%;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -66,30 +69,36 @@ body {
     color: var(--text-color);
     transition: background .5s; /* for dark mode animation */
 }
-h1, h2, h3 {
+h1, h2, h3 
+{
     color: var(--title-color);
     font-family: var(--title-font);
     font-weight: var(--font-medium);
 }
-ul {
+ul 
+{
     list-style: none;
 }
-a {
+a 
+{
     text-decoration: none;
 }
-img {
+img 
+{
     max-width: 100%;
     height: auto;
 }
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
-body.dark-theme {
+body.dark-theme 
+{
     --title-color: hsl(207, 4%, 95%);
     --text-color: hsl(207, 4%, 65%);
     --body-color: hsl(207, 4%, 10%);
     --container-color: #2C3A47;
 }
-button {
+button 
+{
     all: unset;
     cursor: pointer;
 }
