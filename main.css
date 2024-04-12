@@ -90,6 +90,10 @@ body.dark-theme {
     --body-color: hsl(207, 4%, 10%);
     --container-color: #2C3A47;
 }
+button {
+    all: unset;
+    cursor: pointer;
+}
 /*========== 
     Color changes in some parts of 
     the website, in light theme
