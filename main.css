@@ -1,7 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 /*=============== VARIABLES CSS ===============*/
-:root {
+:root{
     --header-height: 3.5rem;
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
@@ -99,23 +99,23 @@ button {
     the website, in light theme
 ==========*/
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
+.container{
     max-width: 1024px;
     margin-inline: 1.5rem;
 }
-.grid {
+.grid{
     display: grid;
     gap: 1.5rem;
 }
-.section {
+.section{
     padding-block: 2.5rem;
 }
-.section__border {
+.section__border{
     border-bottom: 1px solid var(--title-color);
     padding-bottom: 3.5rem;
 }
 .section__title, 
-.section__subtitle {
+.section__subtitle{
     text-align: center;
 }
 .section__title {
