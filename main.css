@@ -62,7 +62,7 @@ html
 }
 body 
 {
-    cursor: url
+    cursor: url("image.auto"), auto;
     width: 100%;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
