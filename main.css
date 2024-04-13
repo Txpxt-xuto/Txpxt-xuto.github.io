@@ -58,11 +58,12 @@
 }
 html
 {
+    cursor: url("https://i.pinimg.com/564x/bd/18/5e/bd185e9855b4d1744e08d77841d45ec6.jpg"), auto;
     scroll-behavior: smooth;
 }
 body 
 {
-    cursor: url("");
+    cursor: url("https://i.pinimg.com/564x/bd/18/5e/bd185e9855b4d1744e08d77841d45ec6.jpg"), auto;
     width: 100%;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
