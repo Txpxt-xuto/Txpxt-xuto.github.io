@@ -58,12 +58,11 @@
 }
 html
 {
-    cursor: url("https://i.pinimg.com/564x/7e/90/b8/7e90b8a2d0687a9386f3ed5425e58b57.jpg"), auto;
     scroll-behavior: smooth;
+    cursor: url(https://assets.codepen.io/210284/hand-cursor_32.svg), default;
 }
 body 
 {
-    cursor: url("https://i.pinimg.com/564x/7e/90/b8/7e90b8a2d0687a9386f3ed5425e58b57.jpg"), auto;
     width: 100%;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
