@@ -59,7 +59,7 @@
 html
 {
     scroll-behavior: smooth;
-    cursor: url(https://assets.codepen.io/210284/hand-cursor_32.svg), default;
+    cursor: url(https://assets.codepen.io/210284/hand-cursor_32.svg), auto;
 }
 body 
 {
