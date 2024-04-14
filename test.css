@@ -153,11 +153,6 @@ ul
         #fd1f1f
     );
 }
-.example-2 .icon-content a[data-social="youtube"] .filled,
-.xample-2 .icon-content a[data-social="youtube"] ~ .tooltip 
-{
-    background-color: #ff0000;
-}
 * {
     box-sizing: border-box;
     padding: 0;
