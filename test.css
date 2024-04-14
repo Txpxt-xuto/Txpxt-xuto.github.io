@@ -144,7 +144,7 @@ ul {
   }
   .example-2 .icon-content a[data-social="youtube"] .filled,
   .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
-    background-color: #ff0000;
+    background-color: #00ffae;
   }
   
 
