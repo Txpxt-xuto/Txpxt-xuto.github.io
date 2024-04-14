@@ -121,8 +121,8 @@ ul {
     height: 100%;
   }
   
-  .example-2 .icon-content a[data-social="linkedin"] .filled,
-  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+  .example-2 .icon-content a[data-social="Facebook"] .filled,
+  .example-2 .icon-content a[data-social="facebook"] ~ .tooltip {
     background-color: #0274b3;
   }
   
