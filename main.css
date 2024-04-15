@@ -170,7 +170,6 @@ body
     background-color: var(--body-color);
     color: var(--text-color);
     transition: background .5s; /* for dark mode animation */
-    cursor: url(https://assets.codepen.io/210284/hand-cursor_32.svg), auto;
 }
 h1, h2, h3 
 {
