@@ -1,29 +1,23 @@
-var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    loop: true,
-    centerSlide: 'true',
-    fade: 'true',
-    grabCursor: 'true',
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-
-    breakpoints:{
-        0: {
-            slidesPerView: 1,
-        },
-        520: {
-            slidesPerView: 2,
-        },
-        950: {
-            slidesPerView: 3,
-        },
-    },
+$(document).ready(function () {
+  $(“.accordion-title”).click(function (e) {
+    var accordionitem = $(this).attr(“data-tab”);
+    $(“#” + accordionitem)
+      .slideToggle()
+      .parent()
+      .siblings()
+      .find(“.accordion-content”)
+      .slideUp();
+    $(this).toggleClass(“active-title”);
+    $(“#” + accordionitem)
+      .parent()
+      .siblings()
+      .find(“.accordion-title”)
+      .removeClass(“active-title”);
+    $(“i.fa-chevron-down”, this).toggleClass(“chevron-top”);
+    $(“#” + accordionitem)
+      .parent()
+      .siblings()
+      .find(“.accordion-title i.fa-chevron-down”)
+      .removeClass(“chevron-top”);
   });
+});
