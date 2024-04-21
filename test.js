@@ -1,5 +1,5 @@
-let toggles = document.getElementsByClassName('toggle');
-let contentDiv = document.getElementsByClassName('content');
+let toggles = document.getElementsByClassName('togglefaq');
+let contentDiv = document.getElementsByClassName('contentfaq');
 let icons = document.getElementsByClassName('icon');
 
 for(let i=0; i<toggles.length; i++){
