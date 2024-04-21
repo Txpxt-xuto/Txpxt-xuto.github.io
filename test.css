@@ -48,5 +48,5 @@ body{
     line-height: 30px;
     height: 0;
     overflow: hidden;
-    transition: all 5s;
+    transition: all 0.3s;
 }
