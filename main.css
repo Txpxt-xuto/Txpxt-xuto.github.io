@@ -197,7 +197,7 @@ body.dark-theme
     --title-color: hsl(207, 4%, 95%);
     --text-color: hsl(207, 4%, 65%);
     --body-color: hsl(207, 4%, 10%);
-    --container-color: #fcf5e57b;
+    --container-color: hsl(207, 4%, 99%);
 }
 button 
 {
