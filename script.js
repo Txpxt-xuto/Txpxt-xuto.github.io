@@ -129,7 +129,10 @@ if (darkMode)
     document.body.classList.add("dark-mode");
     darkIcon.setAttribute("display", "none");
 } 
-else{ lightIcon.setAttribute("display", "none"); }
+else
+{ 
+    lightIcon.setAttribute("display", "none"); 
+}
 function toggleDarkMode() 
 {
     // Toggle darkMode variable
