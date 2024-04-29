@@ -742,7 +742,6 @@ button
 }
 }
 /* For medium devices */
-
 @media screen and (min-width: 576px)
 {
 .nav,.nav__menu
@@ -771,7 +770,6 @@ button
     right: 1rem;
 }
 }
-
 @media screen and (min-width: 767px)
 {
 .home__container
@@ -815,7 +813,6 @@ button
 
 }
 }
-
 @media screen and (min-width: 1023px)
 {
 .header
@@ -865,7 +862,6 @@ button
     font-size: 2.25rem;
 }
 }
-
 @media screen and (min-width: 1048px)
 {
 .container
@@ -873,7 +869,6 @@ button
     margin-inline: auto;
 }
 }
-
 @media screen and (min-width: 1200px)
 {
 .section__border
