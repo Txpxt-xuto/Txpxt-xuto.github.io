@@ -119,8 +119,8 @@ if(cartClose)
     })
 }
 /*=============== DARK LIGHT THEME ===============*/
-const lightIcon = document.getElementById("light-icon");
-const darkIcon = document.getElementById("dark-icon");
+const lightIcon = document.getElementById("ndark-icon");
+const darkIcon = document.getElementById("light-icon");
 const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 let darkMode = darkModeMediaQuery.matches;
 // Set dark-mode class on body if darkMode is true and pick icon
