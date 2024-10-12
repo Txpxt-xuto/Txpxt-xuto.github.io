@@ -119,7 +119,7 @@ if(cartClose)
     })
 }
 /*=============== DARK LIGHT THEME ===============*/
-const lightIcon = document.getElementById("dark-iconlight-icon");
+const lightIcon = document.getElementById("dark-icon");
 const darkIcon = document.getElementById("light-icon");
 const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 let darkMode = darkModeMediaQuery.matches;
