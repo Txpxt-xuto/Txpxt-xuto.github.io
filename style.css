@@ -1,23 +1,23 @@
-/*=============== GOOGLE FONTS ===============*/
+/*
+
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
-/*=============== VARIABLES CSS ===============*/
+
 :root {
     --header-height: 3.5rem;
-    /*========== Colors ==========*/
-    /*Color mode HSL(hue, saturation, lightness)*/
+
+
     --first-color: hsl(207, 65%, 65%);
     --title-color: hsl(207, 4%, 16%);
     --text-color: hsl(207, 4%, 28%);
     --text-color-light: hsl(207, 4%, 56%);
     --body-color: hsl(207, 4%, 99%);
     --container-color: #a3a3a3;
-    /* Change the first number */
-    /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
+
     --gradient-color: linear-gradient(180deg,
                         hsla(207, 48%, 72%, 0),
                         hsla(207, 65%, 65%, 1));
-    /*========== Font and typography ==========*/
-    /*.5rem = 8px | 1rem = 16px ...*/
+
+
     --body-font: 'Roboto', sans-serif;
     --title-font: 'Lora', serif;
     --biggest-font-size: 1.5rem;
@@ -28,15 +28,15 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
     --tiny-font-size: .625rem;
-    /*========== Font weight ==========*/
+
     --font-medium: 500;
     --font-semi-bold: 600;
-    /*========== z index ==========*/
+
     --z-normal: 1;
     --z-tooltip: 10;
     --z-fixed: 100;
 }
-/* Responsive typography */
+
 @media screen and (min-width: 1024px) 
 {
 :root {
@@ -50,7 +50,7 @@
     --tiny-font-size: .688rem;
 }
 }
-/*=============== BASE ===============*/
+
 ul 
 {
     list-style: none;
@@ -169,7 +169,7 @@ body
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
-    transition: background 1s; /* for dark mode animation */
+    transition: background 1s;
 }
 h1, h2, h3 
 {
@@ -190,8 +190,7 @@ img
     max-width: 111%;
     height: auto;
 }
-/*=============== THEME ===============*/
-/*========== Variables Dark theme ==========*/
+
 body.dark-theme 
 {
     --title-color: hsl(207, 4%, 95%);
@@ -204,11 +203,7 @@ button
     all: unset;
     cursor: pointer;
 }
-/*========== 
-    Color changes in some parts of 
-    the website, in light theme
-==========*/
-/*=============== REUSABLE CSS CLASSES ===============*/
+
 .container 
 {
     max-width: 1024px;
@@ -248,9 +243,9 @@ button
 }
 .main 
 {
-    overflow: hidden; /* For animation */
+    overflow: hidden; 
 }
-/*=============== HEADER & NAV ===============*/
+
 .header
 {
     width: 100%;
@@ -332,12 +327,11 @@ button
     font-size: 1.5rem;
     cursor: pointer;
 }
-/* Show menu */
+
 .show-menu{
     bottom: 2rem;
 }
-/* Active link */
-/*=============== HOME ===============*/
+
 .home__container{
     row-gap: 4rem;
     padding-top: 2rem;
@@ -425,7 +419,7 @@ button
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
 }
-/*=============== SKILLS ===============*/
+
 .skills__container{
     row-gap: 3.5rem;
 
@@ -477,7 +471,7 @@ button
     font-size: var(--tiny-font-size);
     color:var(--text-color-light);
 }
-/* Animation skills */
+
 .skills__blob:hover img{
     animation: bounce-skills .6s;
 
@@ -499,7 +493,7 @@ button
     transform: translate(0);
 }
 }
-/*=============== QUALIFICATION ===============*/
+
 .qualification{
     position: relative;
 }
@@ -549,8 +543,7 @@ button
     transform: rotate(15deg);
     opacity: .1;
 }
-/*=============== SERVICES ===============*/
-/*=============== PROJECTS ===============*/
+
 .projects__container{
     overflow: initial;
 }
@@ -586,7 +579,7 @@ button
 .projects__button:hover i{
     transform: translateX(.40rem);
 }
-/* Swiper class */
+
 .projects__container .swiper-button-prev::after,
 .projects__container .swiper-button-next::after{
     content: '';
@@ -620,9 +613,7 @@ button
 .projects__container .swiper-pagination-bullet-active{
     background-color: var(--title-color);
 }
-/*=============== TESTIMONIAL ===============*/
-/* Swiper class */
-/*=============== CONTACT ===============*/
+
 .contact__container{
     row-gap: 3.5rem;
 }
@@ -674,8 +665,7 @@ button
 .contact__button:hover i{
     transform: translateX(.25rem);
 }
-/* Status color */
-/*=============== FOOTER ===============*/
+
 .footer__container{
     padding: 3rem 0 7rem;
     text-align: center;
@@ -711,11 +701,7 @@ button
 .footer__social-link:hover{
     transform: translateY(-.25rem);
 }
-/*=============== SCROLL BAR ===============*/
-/*=============== SCROLL UP ===============*/
-/* Show Scroll Up*/
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
+
 @media screen and (max-width:340px)
 {
 .container
@@ -741,7 +727,7 @@ button
     justify-self: center;
 }
 }
-/* For medium devices */
+
 @media screen and (min-width: 576px)
 {
 .nav,.nav__menu
@@ -993,4 +979,25 @@ button
     width: 320px;
     margin-bottom: 2rem;
 }
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    font-size: 12px;
+    line-height: 8px;
+    text-align: justify;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(https://s.imgz.io/2026/02/12/121868-removebg-preview7c566e24cfbdda4e.png) no-repeat center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(225, 225, 255, 0);
 }
